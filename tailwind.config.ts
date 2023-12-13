@@ -6,6 +6,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        app: '700px'
+      },
       colors: {
         hitalo: '#8257e6'
       }
