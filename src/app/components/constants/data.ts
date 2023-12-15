@@ -5,6 +5,8 @@ import {
   Flag,
   SquareStack,
   Users,
+  LifeBuoy,
+  Cog,
 } from 'lucide-react'
 import { NavItemProps } from '../Sidebar/MainNavigation/NavItem'
 
@@ -38,5 +40,18 @@ export const NavItemList: NavItemProps[] = [
     id: 6,
     title: 'Users',
     icon: Users,
+  },
+]
+
+export const NavItemFooterList: NavItemProps[] = [
+  {
+    id: 1,
+    title: 'Support',
+    icon: LifeBuoy,
+  },
+  {
+    id: 2,
+    title: 'Settings',
+    icon: Cog,
   },
 ]

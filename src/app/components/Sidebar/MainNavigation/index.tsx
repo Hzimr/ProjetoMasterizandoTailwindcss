@@ -1,4 +1,4 @@
-import { NavItem } from './NavItem'
+import { NavItem } from '../NavItem'
 import { NavItemList } from '../../constants/data'
 
 const handleRenderizeNavItemList = () => {
