@@ -3,7 +3,7 @@ import { MainNavigation } from './MainNavigation'
 import { FooterNavigation } from './FooterNavigation'
 import { UsedSpaceWidget } from './UsedSpaceWidget'
 import { Profile } from './Profile'
-import { InputControl, InputPrefix, InputRoot } from './Input'
+import { InputControl, InputPrefix, InputRoot } from '../Input'
 import { Search } from 'lucide-react'
 
 export function Sidebar() {
