@@ -132,9 +132,9 @@ export default function Home() {
                 Share a few snippets of your work.
               </span>
             </label>
-            <FileInput.Root className="">
+            <FileInput.Root>
               <FileInput.Trigger />
-              <FileInput.Control />
+              <FileInput.Control multiple />
             </FileInput.Root>
           </div>
 
