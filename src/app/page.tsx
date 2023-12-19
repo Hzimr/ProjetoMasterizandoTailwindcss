@@ -64,11 +64,13 @@ export default function Home() {
               Email
             </label>
             <Input.InputRoot>
-              <Mail className="h-5 w-5 text-zinc-500" />
-              <Input.InputPrefix></Input.InputPrefix>
+              <Input.InputPrefix>
+                <Mail className="h-5 w-5 text-zinc-500" />
+              </Input.InputPrefix>
               <Input.InputControl
                 id="email"
                 type="email"
+                name="email"
                 defaultValue="hitalodev@gmail.com"
               />
             </Input.InputRoot>
