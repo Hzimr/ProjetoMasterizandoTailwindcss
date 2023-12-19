@@ -151,31 +151,31 @@ export default function Home() {
                 <div className="flex items-center gap-1">
                   <button
                     type="button"
-                    className="hover:bg-zing-50 rounded-md p-2"
+                    className="hover:bg-zing-50 rounded-md p-2 outline-none focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <Bold className="h-4 w-4 text-zinc-500" strokeWidth={3} />
                   </button>
                   <button
                     type="button"
-                    className="hover:bg-zing-50 rounded-md p-2"
+                    className="hover:bg-zing-50 rounded-md p-2 outline-none focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <Italic className="h-4 w-4 text-zinc-500" strokeWidth={3} />
                   </button>
                   <button
                     type="button"
-                    className="hover:bg-zing-50 rounded-md p-2"
+                    className="hover:bg-zing-50 rounded-md p-2 outline-none focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <Link className="h-4 w-4 text-zinc-500" strokeWidth={3} />
                   </button>
                   <button
                     type="button"
-                    className="hover:bg-zing-50 rounded-md p-2"
+                    className="hover:bg-zing-50 rounded-md p-2 outline-none focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <List className="h-4 w-4 text-zinc-500" strokeWidth={3} />
                   </button>
                   <button
                     type="button"
-                    className="hover:bg-zing-50 rounded-md p-2"
+                    className="hover:bg-zing-50 rounded-md p-2 outline-none focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <ListOrdered
                       className="h-4 w-4 text-zinc-500"
