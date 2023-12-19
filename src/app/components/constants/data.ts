@@ -8,7 +8,7 @@ import {
   LifeBuoy,
   Cog,
 } from 'lucide-react'
-import { NavItemProps } from '../Sidebar/MainNavigation/NavItem'
+import { NavItemProps } from '../Sidebar/NavItem'
 
 export const NavItemList: NavItemProps[] = [
   {

@@ -1,10 +1,10 @@
 import { Logo } from './Logo'
-import { MainNavigation } from './MainNavigation'
-import { FooterNavigation } from './FooterNavigation'
+import { Navigation } from './Navigation'
 import { UsedSpaceWidget } from './UsedSpaceWidget'
 import { Profile } from './Profile'
 import { InputControl, InputPrefix, InputRoot } from '../Input'
 import { Search } from 'lucide-react'
+import { NavItemFooterList, NavItemList } from '../constants/data'
 
 export function Sidebar() {
   return (
@@ -17,9 +17,9 @@ export function Sidebar() {
         </InputPrefix>
         <InputControl placeholder="Search" />
       </InputRoot>
-      <MainNavigation />
+      <Navigation itemList={NavItemList} />
       <div className="mt-auto flex flex-col gap-6">
-        <FooterNavigation />
+        <Navigation itemList={NavItemFooterList} />
       </div>
       <UsedSpaceWidget />
       <div className="h-px bg-zinc-200" />
