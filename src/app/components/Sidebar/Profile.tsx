@@ -3,7 +3,7 @@ import { Button } from '../Button'
 
 export function Profile() {
   return (
-    <div className="grid grid-cols-profile items-center gap-3">
+    <div className="flex items-center gap-3">
       <img
         src="https://github.com/hzimr.png"
         className="h-10 w-10 rounded-full"
@@ -17,7 +17,7 @@ export function Profile() {
           hitalodev@gmail.com
         </span>
       </div>
-      <Button type="button" variant="ghost">
+      <Button type="button" className="ml-auto" variant="ghost">
         <LogOut className="h-5 w-5 text-zinc-500" />
       </Button>
     </div>
