@@ -26,6 +26,7 @@ export function Select({ children, placeholder, ...props }: SelectProps) {
           side="bottom"
           position="popper"
           sideOffset={8}
+          // eslint-disable-next-line prettier/prettier
           className="animate-slideDownAndFade z-10 w-[--radix-select-trigger-width] overflow-hidden rounded-lg border border-zinc-200 bg-white shadow-sm "
         >
           <SelectPrimitive.Viewport>{children}</SelectPrimitive.Viewport>
